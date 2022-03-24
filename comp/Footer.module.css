@@ -1,0 +1,80 @@
+.main{
+    width: 100%;
+    background-color: #e0e5eb;
+    padding: 0px 125px;
+    height: 317.7px;
+}
+.container{
+    color: #052F5F;
+    height: inherit;
+    display: flex;
+}
+.socialMedia{
+    width: 100%;
+    display: flex;
+}
+.brandDiv{
+    width: 100%;
+}
+.brand{
+    font-size: 2rem;
+    font-weight: 600;
+    display: block;
+    margin: 0px;
+}
+.linkHeading{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.left{
+    width: 321px;
+    flex-direction: column;
+    display: flex;
+    row-gap: 160px;
+    padding: 35px 15px 32px 15px;
+}
+.middle{
+    width: 642px;
+    padding: 15px;
+    column-gap: 58px;
+    display: flex;
+}
+.right{
+    width: 321px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding-bottom: 32px;
+}
+.linkenIn,
+.twitter,
+.facebook,
+.youtube,
+.instagram{
+    padding: 10px 8px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.copy{
+    font-size: 18px;
+    text-align: right;
+}
+.navigationLinks{
+    font-size: 1.125rem;
+    cursor: pointer;
+    display: inline-block;
+    width: max-content;
+    margin-bottom: 8px;
+    margin-top: 0px !important;
+}
+@media (max-width: 959px){
+    .container{
+        display: block;
+    }
+    .main{
+        padding: 0px;
+    }
+}
